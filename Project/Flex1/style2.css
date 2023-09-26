@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*--------------------*/
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #eef1fc;
+}
+
+.header {
+  height: 120px;
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 57px 0px 0px 37px;
+}
+
+.logi_image {
+}
+
+.lsit_body {
+  /* width: 35%; */
+  margin: 0px 70px 0px 0px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  margin: 67px 0px 0px 0px;
+  gap: 55px;
+}
+
+.list li {
+}
+
+.list a {
+  color: rgba(20, 39, 80, 0.6);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.list a:hover {
+  color: #13274f;
+  text-decoration: underline;
+  text-decoration-color: #597fe2;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 14px;
+}
+
+.main {
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  margin: 150px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 18px 0px;
+}
+
+.main_text {
+  font-size: 36px;
+  /* font-weight: bold; */
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Montserrat", sans-serif;
+}
+
+.p_text {
+  display: flex;
+  justify-content: center;
+}
+
+.second_text {
+  line-height: 158%;
+  font-size: 20px;
+  font-weight: 100;
+  max-width: 867px;
+  text-align: center;
+}
+
+.section2 {
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-around;
+  column-gap: 40px;
+  height: 300px;
+  margin: 0px 0px 79px 0px;
+}
+
+.block {
+  flex: 1;
+  height: 278px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 15px;
+}
+.block.active {
+  transform: scale(1.1);
+}
+.block.active button {
+  background-color: #597fe2;
+  color: #fff;
+  border: none;
+}
+
+.block_btn {
+  margin: 0 auto;
+  width: 100%;
+  height: 51px;
+  border: 4px solid #eef1fc;
+  background-color: #fff;
+  border-radius: 5px;
+  color: var(--Light-blue, #6d7593);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 141.9%;
+}
+
+.block span {
+  display: block;
+  text-align: center;
+  margin-top: 19px;
+  color: #6d7593;
+  font-size: 14px;
+}
+
+.block > div {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 150px;
+  width: 221px;
+}
+
+.footer {
+  /* height: 200px; */
+  background-color: #e2e7fa;
+}
+
+.footer_main {
+  /* top: 100px; */
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-around;
+  column-gap: 40px;
+  margin: 0px 0px 79px 0px;
+  gap: 110px;
+  margin-bottom: 180px;
+}
+
+.footer_block {
+  flex: 1;
+  position: relative;
+  height: 100px;
+  top: 67px;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 139.4%;
+}
+
+.main_p {
+  color: #13274f;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0px 0px 10px 0px;
+}
+
+.footer_last {
+  justify-content: center;
+}
+
+.footer_last p {
+  color: var(--13274-f, #13274f);
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
