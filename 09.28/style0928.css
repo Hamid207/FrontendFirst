@@ -314,3 +314,24 @@ font-style: normal;
 font-weight: 400;
 line-height: 130%;
 }
+
+/*--------------------------------------------*/
+
+
+.section4_ul_body {
+  list-style: disc;
+  width: 662px;
+flex-shrink: 0;
+margin-left: 20px;
+margin-top: 21px;
+/* background-color: red; */
+}
+
+
+.section4_ul_body > li {
+  color: #000;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+}
