@@ -269,3 +269,48 @@ body {
   font-weight: 400;
   line-height: 130%;
 }
+
+/*---------------------------------*/
+.section3_body {
+  margin-top: 178px;
+}
+.format_text > h2 {
+  color: #000;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101.385%;
+}
+
+.info_text_ul_body {
+  margin-top: 89px;
+}
+
+.info_text_ul {
+display: flex;
+justify-content: space-between;
+
+}
+
+.info_name {
+color: #1E4681;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%;
+}
+
+.info_text_ul > li > div {
+  width: 271px;
+height: 109px;
+flex-shrink: 0;
+}
+
+.info_text_ul > li > div :nth-child(2) {
+  color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+}
