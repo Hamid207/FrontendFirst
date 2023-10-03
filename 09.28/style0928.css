@@ -405,6 +405,7 @@ body {
 
 .section6 {
   margin-top: 121px;
+  padding-bottom: 111px;
   background-color: #efefef;
 }
 
@@ -481,4 +482,76 @@ body {
   width: 32px;
   height: 31px;
   flex-shrink: 0;
+}
+
+/*---------------------------------------*/
+
+.section7 {
+  background-color: #9dc9c8;
+}
+
+.section7_body {
+  padding-top: 179px;
+  padding-bottom: 179px;
+}
+
+.section7_body > h2 {
+  margin-bottom: 84px;
+}
+.section7_body > h2 {
+  color: #000;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101.385%;
+}
+
+.section7_body :nth-child(2) > h3 {
+  color: #000;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%;
+}
+
+.section7_body :nth-child(2) > p {
+  color: #000;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%;
+}
+
+.section7_body :nth-child(3) {
+  margin-top: 84px;
+}
+
+.section7_body :nth-child(3) {
+  display: flex;
+  gap: 70px;
+}
+
+.section7 :nth-child(3) > div {
+  width: 294px;
+  flex-shrink: 0;
+}
+
+.section7_body :nth-child(3) > :nth-child(2) > h3,
+.section7_body :nth-child(3) > :nth-child(1) > h3 {
+  color: #000;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%;
+  background-color: #9dc9c8;
+  margin-bottom: 10px;
+}
+
+.section7_body :nth-child(3) > :nth-child(2) > p,
+.section7_body :nth-child(3) > :nth-child(1) > p {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%;
 }
