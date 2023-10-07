@@ -714,3 +714,11 @@ footer {
     gap: 50px;
   }
 }
+
+@media (max-width: 1024px) {
+  .main_img {
+    margin-right: 0px;
+    margin-left: 200px;
+  }
+
+}
